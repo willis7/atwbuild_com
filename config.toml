@@ -20,7 +20,7 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "ATW Bricklaying & General Building Ltd"
-  description = "Your description"
+  description = "Construction Company"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -75,20 +75,33 @@ disqusShortname = ""
   # Tiles Section
   [params.tiles]
     enable = true
-    # Display your showcases here.
+    # Display your showcases here.#
+
+    [[params.tiles.showcase]]
+      title = "Loft and garage conversions"
+      subtitle = "Feugiat Amet Tempus"
+      image = "117726519_2700184716906825_4478192044953827901_o.jpg"
+      url = "blogs/tempus"
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
+      title = "New builds and Extensions"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "rewe.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
-      image = "porch.jpg"
-      url = "blogs/tempus"
+      title = "Bathrooms and kitchens"
+      subtitle = "Nisl Sed Aliquam"
+      image = "128224674_2795216544070308_2779889714911087529_o.jpg"
+      url = "blogs/ipsum"
 
+
+    [[params.tiles.showcase]]
+      title = "Bespoke"
+      subtitle = "Ipsum Dolor Sit Amet"
+      image = "stairway.jpg"
+      url = "blogs/ipsum"
+      
     [[params.tiles.showcase]]
       title = "Repointing"
       subtitle = "Lorem Etiam Nullam"
@@ -96,19 +109,7 @@ disqusShortname = ""
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "welcome.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "stairway.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Etiam"
+      title = "Structural repairs"
       subtitle = "Feugiat Amet Tempus"
       image = "sunsidence.jpg"
       url = "blogs/ipsum"
